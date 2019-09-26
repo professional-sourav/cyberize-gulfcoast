@@ -1,0 +1,448 @@
+.block-after-header {
+
+    background-color: $cg-primary-light;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    margin-top: 90px;
+    text-align: center;
+
+	@media (min-width: 1367px) {
+		margin-top: 50px !important;
+	}
+
+    h1 {
+
+        color: $white;
+        text-transform: uppercase;
+    }
+}
+
+.general-page-header {
+
+    width: 100vw;
+    height: 120px;
+    background-color: $cg-primary-light;
+    background-size: cover;
+    background-position: top center;
+    color: $white !important;
+    margin-top: 50px;
+    display: inline-block;
+    text-align: center;
+    /*padding-top: 30px;
+    padding-bottom: 30px;*/
+
+    h1 {
+        color: $white;
+    }
+}
+
+
+/* ------------- BANNER STYLE START --------------- */
+
+.gc-banner-overlap-block {
+
+	.gc-banner-overlap-block-heading {
+
+		p {
+
+			font-size: 16px;
+
+			@media (max-width: 1022px) {
+
+				font-size: 14px !important;
+				white-space: pre;
+			}
+		}
+	}
+
+	.thrv-columns {
+
+		.tcb-flex-row {
+
+			display: inline-block;
+			width: 100%;
+
+			.tcb-flex-col {
+
+				width: 20% !important;
+				display: inline-block;
+
+				.thrv_text_element {
+
+					p {
+
+						font-size: 24px;
+						font-weight: bold;
+
+						@media (max-width: 1022px) {
+
+							font-size: 18px !important;
+							white-space: pre;
+							font-weight: bold;
+						}
+					}
+				}
+			}
+		}
+	}
+
+	@media (max-width: 691px) {
+
+		display: none !important;
+	}
+}
+
+/* ------------- BANNER STYLE END --------------- */
+
+
+#gc-single-post {
+
+	margin-top: 50px;
+
+	@media (min-width: 1367px) {
+		margin-top: 50px;
+	}
+
+	@media (max-width: 781px) {
+		margin-top: 50px;
+	}
+}
+
+#responsive-menu-pro-button{
+
+	top: 55px !important;
+	top: 25px !important;
+    background: transparent !important;
+
+	.responsive-menu-pro-inner {
+
+		background-color: $black !important;
+
+		&::before {
+
+			background-color: $black !important;
+		}
+
+		&::after {
+
+			background-color: $black !important;
+		}
+	}
+}
+
+/* --------- PAGINATION START ---------- */
+
+.pgntn-page-pagination {
+
+	display: flex;
+	padding-top: 60px !important;
+
+	.pgntn-page-pagination-block {
+
+		width: 33% !important;
+		text-align: center;
+		margin-top: 60px;
+		display: inline-block;
+		border: 1px solid $cg-button;
+		border-radius: 51px;
+		padding: 8px 6px 0px 0;
+		margin: 0px auto;
+
+		@media (max-width: 766px) {
+			width: 100% !important;
+		}
+
+		.pgntn-page-pagination-intro {
+
+			background-color: transparent !important;
+			border: 0px !important;
+			padding-top: 17px !important;
+		}
+
+
+		.page-numbers {
+
+			/* hide all page numbers */
+			&:not(.next) {
+
+				&:not(.prev) {
+
+					display: none;
+				}
+			}
+
+			&.next {
+
+				color: transparent !important;
+				background-color: $cg-button;
+				background: url(../../../assets/img/next_icon.png) 0px 0px no-repeat;
+				border: 0px !important;
+				width: 58px;
+				height: 58px;
+				float: right;
+				background-size: contain;
+				border-radius: 50px;
+			}
+
+			&.prev {
+
+				color: transparent !important;
+				background-color: $cg-button;
+				background: url(../../../assets/img/previous_icon.png) 0px 0px no-repeat;
+				border: 0px !important;
+				width: 58px;
+				height: 58px;
+				float: left;
+				background-size: contain;
+				border-radius: 50px;
+			}
+
+			// previous_icon.svg
+
+			.current {
+
+			}
+		}
+	}
+}
+
+.post-nav-holder {
+
+	// display: none;
+}
+
+.posts-navigation {
+
+	// display: none;
+}
+
+.ms-theme-cubic {
+
+	padding-bottom: 0px !important;
+}
+
+/* --------- PAGINATION END ---------- */
+
+
+/* ---------- GRAVITY FORM START ------------- */
+
+.gc-gf-column {
+
+	.gform_heading {
+
+		display: none !important;
+	}
+
+	.gform_body {
+
+		ul {
+
+			li {
+
+				&.gfield {
+
+					&.gfield_contains_required {
+
+						label {
+
+							span {
+
+								color: $red !important;
+							}
+						}
+					}
+				}
+
+				.ginput_container_text {
+
+					input {
+
+						background-color: transparent !important;
+						border: 1px solid $cg-secondary;
+						border-radius: 3px;
+					}
+				}
+
+				.ginput_container_textarea {
+
+					textarea {
+
+						background-color: transparent !important;
+						border: 1px solid $cg-secondary;
+						border-radius: 3px;
+						max-height: 140px !important;
+					}
+				}
+			}
+		}
+	}
+
+	.gform_footer {
+
+		.gform_button {
+
+			background-color: #DDB46C !important;
+			border-radius: 3px;
+		}
+	}
+}
+
+/* ---------- GRAVITY FORM END ------------- */
+
+
+/* ---------- CONTACT PAGE BLOCK STYLE START ---------- */
+.gc-contact-page-block {
+
+    .tcb-flex-col {
+
+        .tcb-col {
+
+            .thrv-content-box {
+
+                @media (max-width: 1024px) {
+
+                    width: 90% !important;
+                }
+            }
+        }
+
+		&:last-child {
+
+			.tcb-col {
+
+		    	.thrv-content-box {
+
+		         	@media (max-width: 1024px) {
+
+		            	padding-left: 30px !important;
+		            }
+		        }
+		    }
+		}
+
+		&:first-child {
+
+			.gc-contact-get-in-touch {
+
+				.thrv-columns {
+
+					@media (max-width: 766px) {
+
+						display: flex;
+					}
+
+					.tcb-flex-row {
+
+						@media (max-width: 766px) {
+
+							display: inline-block;
+							width: 100%;
+						}
+
+						.tcb-flex-col {
+
+							@media (max-width: 766px) {
+
+								display: inline-block;
+								flex: none !important;
+							}
+
+							&:first-child {
+
+								@media (max-width: 766px) {
+
+									width: 25%;
+								}
+							}
+
+							&:last-child {
+
+								padding-top: 7px;
+
+								@media (max-width: 766px) {
+
+									width: 75%;
+									vertical-align: middle;
+								}
+							}
+						}
+					}
+				}
+			}
+		}
+    }
+}
+/* ---------- CONTACT PAGE BLOCK STYLE END ---------- */
+
+
+/* ------------- THANK YOU PAGE START ------------- */
+
+.thank-you-page-bg {
+	background-color: black;
+	background-image: url("../../../assets/img/thank_you_bg.png");
+	background-size: cover;
+	background-position: top center;
+
+	.page-content {
+
+		padding-top: 120px;
+		padding-bottom: 120px;
+		margin-top: 50px;
+
+		img {
+			margin-bottom: 30px;
+		}
+
+		h1 {
+
+			color: #fff;
+			font-size: 64px;
+			font-weight: 500;
+		}
+
+		p {
+
+			color: #fff;
+			font-size: 16px;
+		}
+
+		.thank-you-page-button {
+
+			background-color: #DDB46C;
+			padding: 12px;
+			color: #fff;
+			border: 1px solid #DDB46C;
+			border-radius: 50px;
+			width: 200px;
+			text-transform: uppercase;
+		}
+
+		.heateor_sss_sharing_container ul {
+			display: inline-block;
+		}
+	}
+}
+
+/* ------------- THANK YOU PAGE END ------------- */
+
+
+
+/* ------------- 404 PAGE END ------------- */
+
+.error-404-page-area {
+
+	padding-top: 120px;
+	padding-bottom: 120px;
+	margin-top: 50px;
+
+	img {
+		margin-bottom: 30px;
+	}
+
+	a {
+		color: $cg-button;
+		font-weight: normal;
+	}
+}
+
+/* ------------- 404 PAGE END ------------- */
