@@ -116,16 +116,16 @@
 
 	.responsive-menu-pro-inner {
 
-		background-color: $black !important;
+		background-color: #FFD984 !important;
 
 		&::before {
 
-			background-color: $black !important;
+			background-color: #FFD984 !important;
 		}
 
 		&::after {
 
-			background-color: $black !important;
+			background-color: #FFD984 !important;
 		}
 	}
 }
@@ -139,11 +139,11 @@
 
 	.pgntn-page-pagination-block {
 
-		width: 33% !important;
+		width: 37% !important;
 		text-align: center;
 		margin-top: 60px;
 		display: inline-block;
-		border: 1px solid $cg-button;
+		border: 1px solid #FF7F00;
 		border-radius: 51px;
 		padding: 8px 6px 0px 0;
 		margin: 0px auto;
@@ -156,7 +156,8 @@
 
 			background-color: transparent !important;
 			border: 0px !important;
-			padding-top: 17px !important;
+            padding-top: 22px !important;
+            font-size: 12px;
 		}
 
 
@@ -175,7 +176,7 @@
 
 				color: transparent !important;
 				background-color: $cg-button;
-				background: url(../../../assets/img/next_icon.png) 0px 0px no-repeat;
+				background: url('/wp-content/uploads/2019/10/next-icon.png') 0px 0px no-repeat;
 				border: 0px !important;
 				width: 58px;
 				height: 58px;
@@ -188,7 +189,7 @@
 
 				color: transparent !important;
 				background-color: $cg-button;
-				background: url(../../../assets/img/previous_icon.png) 0px 0px no-repeat;
+				background: url('/wp-content/uploads/2019/10/Back-icon.png') 0px 0px no-repeat;
 				border: 0px !important;
 				width: 58px;
 				height: 58px;
@@ -281,7 +282,8 @@
 
 		.gform_button {
 
-			background-color: #DDB46C !important;
+			background-color: #FF7F00 !important;
+            border-color: #FF7F00;
 			border-radius: 3px;
 		}
 	}
@@ -446,3 +448,15 @@
 }
 
 /* ------------- 404 PAGE END ------------- */
+
+
+#general-page-header {
+
+    @media (max-width: 500px) {
+
+        h1 {
+
+            font-size: 24px;
+        }
+    }
+}

@@ -47,20 +47,19 @@
 						font-family: $primary-font;
 						font-size: .8rem;
 						font-weight: 700;
-						color: $black !important;
+						color: #FFFFFF !important;
 						text-transform: uppercase;
-						color: lighten($cg-secondary, 10%);
 						white-space: pre;
 
 						&:hover {
-							color: lighten($cg-secondary, 20%);
+							color: #FFD984;
 						}
 					}
 				}
 				.current-menu-item {
 					a {
 						// font-family: $secondary-font;
-						color: $cg-link !important;
+						color: #FFD984 !important;
 					}
 				}
 

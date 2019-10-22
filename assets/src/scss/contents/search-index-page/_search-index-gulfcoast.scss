@@ -4,7 +4,7 @@
  *
  */
 
-.search-index-gulfcoast {
+.blog-index-block-gulfcoast {
 
 	.block-after-header {
 
@@ -15,7 +15,7 @@
 		text-align: center;
 
 		@media (max-width: 781px) {
-			margin-top: 76px;
+			margin-top: 50px;
 		}
 
 		h1 {
@@ -23,6 +23,14 @@
 			color: $white;
 			text-transform: uppercase;
 			margin-bottom: 0px;
+
+			@media (max-width: 542px) {
+				font-size: 2rem;
+			}
+
+			@media (max-width: 440px) {
+				font-size: 1.5rem;
+			}
 		}
 	}
 
@@ -49,7 +57,7 @@
 
 	.post-nav-holder {
 		display: none;
-	}		
+	}
 
 	/*.post-nav-holder {
 		// text-align: center;
@@ -170,6 +178,14 @@
 	 					padding-left: .5rem;
 	 				}
 	 			}
+
+				.author {
+
+					a {
+
+						color: #6E6E6E;
+					}
+				}
 	 		}
 	 	}
 

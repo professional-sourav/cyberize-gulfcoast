@@ -19,15 +19,19 @@ get_header(); ?>
 	#general-page-header {
 		width: 100vw;
 		height: 200px;
-		background-color: black;
 		background-image: url('<?php the_field('general_page_header_image', 'option') ?>');
 		background-size: cover;
 		background-position: top center;
+		display: flex;
+    	justify-content: center;
+    	align-items: center;
+    	margin-top: 49px;
+		text-transform: uppercase;
 	}
 </style>
 
 <section id="general-page-header">
-	<!-- <img class="img-fluid" src="/wp-content/uploads/2018/02/general-page-header-2400x300.jpg"> -->
+	<h1><?php the_title() ?></h1>
 </section>
 
 <div id="primary" class="content-area container pt-5">
@@ -35,8 +39,8 @@ get_header(); ?>
 		<div class="col-sm-12 col-md-12 col-lg-3">
 
 			<?php get_sidebar(); ?>
-			
-		</div>	
+
+		</div>
 		<main id="main" class="site-main col-sm-12 col-md-12 col-lg-9">
 
 			<?php
@@ -53,7 +57,7 @@ get_header(); ?>
 			?>
 
 		</main><!-- #main -->
-		
+
 	</div> <!-- END ROW -->
 </div><!-- #primary -->
 

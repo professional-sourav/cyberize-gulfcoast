@@ -192,29 +192,31 @@
 			input {
 				width: 100%;
 				// background-color: lighten($cg-secondary, 0%);
-				border: 1px solid lighten($cg-secondary, 0%);
+				border: 1px solid #898989;
 				outline-color: $cg-primary;
 				min-height: 40px;
 				padding-left: 15px;
 				padding-right: 15px;
 				border-radius: 3px;
+				outline: none;
 				// @include border-bottom-right-radius(60px);
 			}
 			textarea {
 				width: 100%;
 				// background-color: lighten($cg-primary, 45%);
-				border: 1px solid lighten($cg-secondary, 0%);
+				border: 1px solid #898989;
 				outline-color: $cg-secondary;
 				// @include border-top-left-radius(60px);
 				// @include border-bottom-right-radius(60px);
 				box-sizing: border-box;
 				max-height: 100px;
 				border-radius: 3px;
+				outline: none;
 			}
 			#submit {
-				background-color: lighten($cg-button-light, 0%);
 				color: lighten($cg-primary, 100%);
-				background-color: #ddb46c;
+				background-color: #FF7F00;
+				border-color: #FF7F00;
 				color: #fff;
 				width: 200px;
 				min-height: 50px;
